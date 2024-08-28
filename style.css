@@ -7,19 +7,22 @@ body {
 .content {
 	align-items: center;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	height: 100vh;
 	wdith: 100vw;
 }
 
 .monster {
-	height: 400px;
-	width: 400px;
+	aspect-ratio: 1;
+	height: auto;
+	max-height: 400px;
+	max-width: 400px;
+	width: 100%;
 }
 
 .name {
-	position: absolute;
 	text-align: center;
-	top: calc(50vh + 100px);
+	margin-top: max(-20%, -80px);
 	width: 100%;
 }
