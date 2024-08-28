@@ -1,0 +1,25 @@
+body {
+	background-color: color(display-p3 0.926 0.942 0.907);
+	font-family: "Pixelify Sans", sans-serif;
+	font-size: 36px;
+}
+
+.content {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	wdith: 100vw;
+}
+
+.monster {
+	height: 400px;
+	width: 400px;
+}
+
+.name {
+	position: absolute;
+	text-align: center;
+	top: calc(50vh + 100px);
+	width: 100%;
+}
