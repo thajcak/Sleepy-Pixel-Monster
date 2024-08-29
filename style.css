@@ -32,10 +32,10 @@ body {
 
 .links img {
 	object-fit: contain;
-	height: 64px;
+	height: 40px;
 	filter: grayscale(1);
 	transition: all 500ms;
-	width: 64px;
+	width: 40px;
 }
 
 .links img:hover {
