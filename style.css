@@ -8,21 +8,35 @@ body {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 	justify-content: center;
-	height: 100vh;
-	wdith: 100vw;
+	padding: 1rem;
 }
 
 .monster {
-	aspect-ratio: 1;
+	aspect-ratio: 650 / 550;
 	height: auto;
-	max-height: 400px;
-	max-width: 400px;
-	width: 100%;
+	max-height: min(90vh, 275px);
+	max-width: min(90vw, 325px);
+	width: auto;
 }
 
 .name {
 	text-align: center;
-	margin-top: max(-20%, -80px);
-	width: 100%;
+}
+
+.links {
+	display: flex;
+	padding: 4rem;
+}
+
+.links img {
+	height: 32px;
+	filter: grayscale(1);
+	transition: all 500ms;
+	width: 32px;
+}
+
+.links img:hover {
+	filter: grayscale(0);
 }
