@@ -32,10 +32,10 @@ body {
 
 .links img {
 	object-fit: contain;
-	height: 40px;
+	height: 64px;
 	filter: grayscale(1);
 	transition: all 500ms;
-	width: 40px;
+	width: 64px;
 	padding: 1rem;
 }
 
